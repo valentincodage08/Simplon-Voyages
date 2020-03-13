@@ -1,0 +1,199 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Accueil */
+
+/* Navbar */
+
+.mynavbar {
+	height: 70px;
+	background-color: rgba(18, 117, 202, 0.75);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0px 0px 5px 0px black;
+}
+
+.navlogo {
+	height: 100px;
+	width: 100px;
+}
+
+/* Items navbar */
+
+.voyagesnav {
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.galerienav {
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.contactnav {
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+/* Slider */
+
+.quisommesnous {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color: #EFEFEF;
+}
+
+.titrequisommesnous {
+	grid-column-start: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.h2accueil {
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.pquisommesnous {
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #DADADA;
+	text-align: center;
+	padding: 0 50px;
+	height: 400px;
+}
+
+.pcardquisommesnous {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1.5rem;
+}
+
+.destinations {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color: #EFEFEF;
+}
+
+.pdestinations {
+	grid-column-start: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #DADADA;
+	text-align: center;
+	padding: 0 50px;
+	height: 400px;
+}
+
+.pcarddestinations {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1.5rem;
+}
+
+.titredestinations {
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.partenaires {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color: #EFEFEF;
+}
+
+.titrepartenaires {
+	grid-column-start: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ppartenaires {
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #DADADA;
+	text-align: center;
+	padding: 0 50px;
+	height: 400px;
+}
+
+.pcardpartenaires {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1.5rem;
+}
+
+/* footer en 2 parties */
+
+.footer1 {
+	background-color: rgba(18, 117, 202, 0.75);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.infos1 {
+	grid-column-start: 1;
+	display: block;
+	align-items: center;
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	line-height: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 15px;
+}
+
+.infos2 {
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #5E533F;
+	font-size: 50px;
+}
+
+.infos3 {
+	grid-column-start: 3;
+	display: block;
+	align-items: center;
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	line-height: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 15px;
+}
+
+.footer2 {
+	background-color: rgba(18, 117, 202, 0.75);
+	text-align: center;
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 14px;
+	padding: 10px 0px;
+}
