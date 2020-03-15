@@ -1,6 +1,11 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #EFEFEF;
+}
+
+.bodyvoyages {
+	background-color: #DADADA;
 }
 
 /* Accueil */
@@ -44,7 +49,39 @@ body {
 	font-weight: bold;
 }
 
+.nava:hover {
+	text-decoration: none;
+	color: #5E533F;
+	opacity: 0.7;
+}
+
 /* Slider */
+
+.carousel-indicators li {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: black;
+	margin-right: 8px;
+	margin-left: 8px;
+
+}
+
+.carousel-control-prev-icon {
+	background-image: none;
+}
+
+.fa-chevron-circle-left:before {
+	color: black;
+}
+
+.carousel-control-next-icon {
+	background-image: none;
+}
+
+.fa-chevron-circle-right:before {
+	color: black;
+}
 
 .quisommesnous {
 	display: grid;
@@ -149,13 +186,12 @@ body {
 	background-color: rgba(18, 117, 202, 0.75);
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-
+	height: 90px;
 }
 
 .infos1 {
 	grid-column-start: 1;
 	display: block;
-	align-items: center;
 	font-family: 'Bellota', cursive;
 	color: #5E533F;
 	line-height: 0px;
@@ -196,4 +232,112 @@ body {
 	color: #5E533F;
 	font-size: 14px;
 	padding: 10px 0px;
+}
+
+.h2voyages {
+	text-align: center;
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.h2margin {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.carouchevron {
+	font-size: 20px;
+}
+
+.carouvoyagesrow {
+	margin-bottom: 50px;
+}
+
+.voyagecardscontainer {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.voyagecards {
+	overflow: hidden;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	
+}
+
+.voyagecountry {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.voyagecardsinfos {
+	display: flex;
+	justify-content: space-around;
+}
+
+.voyagecardspwidth {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1rem;
+	max-width: 35%;
+}
+
+.voyagecardsvoir {
+	align-self: center;
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1.8rem;
+}
+
+.voyagecardsp {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1rem;
+	max-width: 25%;
+}
+
+.strongprice {
+	font-weight: bold;
+	font-size: 1.8rem;
+
+}
+
+.h2show {
+	text-align: center;
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+.showvoyagesp {
+	color: #5E533F;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.testimonialscards {
+	display: flex;
+	justify-content: space-around;
+}
+
+.testimonialsavatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.testimonialsp {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+}
+
+.h2testimonials {
+	font-size: 1.5rem;
 }
