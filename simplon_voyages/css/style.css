@@ -265,8 +265,8 @@ body {
 
 .voyagecards {
 	overflow: hidden;
-	box-shadow: 0 0 15px rgba(0,0,0,0.2);
-	
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
 }
 
 .voyagecountry {
@@ -324,7 +324,6 @@ body {
 
 .testimonialscards {
 	display: flex;
-	justify-content: space-around;
 }
 
 .testimonialsavatar {
@@ -340,4 +339,46 @@ body {
 
 .h2testimonials {
 	font-size: 1.5rem;
+}
+
+.starcolor {
+	color: #5E533F;
+}
+
+.flexboxgalerie {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hoverzoomcards:hover {
+	opacity: 0.7;
+}
+
+.formp {
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 1.8rem;
+}
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.formmsg {
+	height: 180px;
+}
+
+.mybtn {
+	margin-left: 200px;
+	background-color: #5E533F;
+	color: #DADADA;
+	font-family: 'Bellota', cursive;
+	font-size: 1.8rem;
+	border-radius: .75rem;
+}
+
+.mybtn:hover {
+	color: #DADADA;
+	opacity: 0.7;
 }
