@@ -1,0 +1,390 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #EFEFEF;
+}
+
+.bodyvoyages {
+	background-color: #DADADA;
+}
+
+/* Accueil */
+
+/* Navbar */
+
+.mynavbar {
+	height: 70px;
+	background-color: rgba(18, 117, 202, 0.75);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0px 0px 5px 0px black;
+}
+
+.navlogo {
+	height: 100px;
+	width: 100px;
+}
+
+/* Items navbar */
+
+.voyagesnav {
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.galerienav {
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.contactnav {
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.nava:hover {
+	text-decoration: none;
+	color: #5E533F;
+	opacity: 0.7;
+}
+
+/* Slider */
+
+.carousel-indicators li {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: black;
+	margin-right: 8px;
+	margin-left: 8px;
+
+}
+
+.carousel-control-prev-icon {
+	background-image: none;
+}
+
+.fa-chevron-circle-left:before {
+	color: black;
+}
+
+.carousel-control-next-icon {
+	background-image: none;
+}
+
+.fa-chevron-circle-right:before {
+	color: black;
+}
+
+.quisommesnous {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color: #EFEFEF;
+}
+
+.titrequisommesnous {
+	grid-column-start: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.h2accueil {
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.pquisommesnous {
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #DADADA;
+	text-align: center;
+	padding: 0 50px;
+	height: 400px;
+}
+
+.pcardquisommesnous {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1.5rem;
+}
+
+.destinations {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color: #EFEFEF;
+}
+
+.pdestinations {
+	grid-column-start: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #DADADA;
+	text-align: center;
+	padding: 0 50px;
+	height: 400px;
+}
+
+.pcarddestinations {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1.5rem;
+}
+
+.titredestinations {
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.partenaires {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color: #EFEFEF;
+}
+
+.titrepartenaires {
+	grid-column-start: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ppartenaires {
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #DADADA;
+	text-align: center;
+	padding: 0 50px;
+	height: 400px;
+}
+
+.pcardpartenaires {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1.5rem;
+}
+
+/* footer en 2 parties */
+
+.footer1 {
+	background-color: rgba(18, 117, 202, 0.75);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 90px;
+}
+
+.infos1 {
+	grid-column-start: 1;
+	display: block;
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	line-height: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 15px;
+}
+
+.infos2 {
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #5E533F;
+	font-size: 50px;
+}
+
+.infos3 {
+	grid-column-start: 3;
+	display: block;
+	align-items: center;
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	line-height: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 15px;
+}
+
+.footer2 {
+	background-color: rgba(18, 117, 202, 0.75);
+	text-align: center;
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 14px;
+	padding: 10px 0px;
+}
+
+.h2voyages {
+	text-align: center;
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.h2margin {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.carouchevron {
+	font-size: 20px;
+}
+
+.carouvoyagesrow {
+	margin-bottom: 50px;
+}
+
+.voyagecardscontainer {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.voyagecards {
+	overflow: hidden;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.voyagecountry {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.voyagecardsinfos {
+	display: flex;
+	justify-content: space-around;
+}
+
+.voyagecardspwidth {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1rem;
+	max-width: 35%;
+}
+
+.voyagecardsvoir {
+	align-self: center;
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1.8rem;
+}
+
+.voyagecardsp {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+	font-size: 1rem;
+	max-width: 25%;
+}
+
+.strongprice {
+	font-weight: bold;
+	font-size: 1.8rem;
+
+}
+
+.h2show {
+	text-align: center;
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+.showvoyagesp {
+	color: #5E533F;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.testimonialscards {
+	display: flex;
+}
+
+.testimonialsavatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.testimonialsp {
+	font-family: 'Indie Flower', cursive;
+	color: #5E533F;
+}
+
+.h2testimonials {
+	font-size: 1.5rem;
+}
+
+.starcolor {
+	color: #5E533F;
+}
+
+.flexboxgalerie {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hoverzoomcards:hover {
+	opacity: 0.7;
+}
+
+.formp {
+	font-family: 'Bellota', cursive;
+	color: #5E533F;
+	font-size: 1.8rem;
+}
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.formmsg {
+	height: 180px;
+}
+
+.mybtn {
+	margin-left: 200px;
+	background-color: #5E533F;
+	color: #DADADA;
+	font-family: 'Bellota', cursive;
+	font-size: 1.8rem;
+	border-radius: .75rem;
+}
+
+.mybtn:hover {
+	color: #DADADA;
+	opacity: 0.7;
+}
+
+.divmapgoogle {
+	display: flex;
+	justify-content: center;
+	margin: 40px;
+}
