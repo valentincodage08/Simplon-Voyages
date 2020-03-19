@@ -1,7 +1,7 @@
 <h2 class="h2show h2margin">Tunisie</h2>
 	<div class="container">
 		<div class="row mb-5">
-			<img src="img/slider1.jpg" alt="Image principale Tunisie" style="max-width: 100%;">
+			<img src="img/slider1.jpg" alt="Image principale Tunisie" style="max-width: 100%;height: auto;">
 		</div>
 	</div>
 
