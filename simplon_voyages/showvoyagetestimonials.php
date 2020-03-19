@@ -1,42 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/css?family=Bellota|Indie+Flower&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/mediaq1024.css">
-	<link rel="stylesheet" href="css/mediaq600.css">
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
-	<title>Simplon Voyages</title>
-</head>
-
-<body>
-
-	<nav>
-		<div class="mynavbar">
-			<a href="index.html" class="nava"><img class="navlogo" src="img/logo_simplon_voyages.png" alt="Logo Simplon Voyages"></a>
-			<a href="voyages.html" class="nava"><p class="voyagesnav">Voyages</p></a>
-			<a href="galerie.html" class="nava"><p class="galerienav">Galerie</p></a>
-			<a href="contact.html" class="nava"><p class="contactnav">Contact</p></a>
-		</div>
-	</nav>
-
-	<h2 class="h2show h2margin">Tunisie</h2>
+<h2 class="h2show h2margin">Tunisie</h2>
 	<div class="container">
 		<div class="row mb-5">
 			<img src="img/slider1.jpg" alt="Image principale Tunisie" style="max-width: 100%;">
@@ -158,28 +120,3 @@
 		</div>
 	</div>
 
-
-	<footer>
-		<div class="footer1">
-			<div class="infos1">
-				<p>Mentions légales</p><br>
-				<p>CGV</p><br>
-				<p>A propos</p>
-			</div>
-			<div class="infos2">
-				<i class="fab fa-twitter-square"></i>
-				<i class="fab fa-facebook-square"></i>
-				<i class="fab fa-instagram-square"></i>
-			</div>
-			<div class="infos3">
-				<p>35 Avenue de la Playa</p><br>
-				<p>Miami, Floride</p>
-			</div>
-		</div>
-
-		<div class="footer2">
-			<p>&copy Simplon Voyages 2020</p>
-		</div>
-	</footer>
-
-</body>
