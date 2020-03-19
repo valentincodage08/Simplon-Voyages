@@ -1,0 +1,171 @@
+@media only screen and (max-width: 400px) {
+    .mynavbar {
+        height: 40px;
+    }
+
+    .navlogo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .voyagesnav {
+        font-size: 1rem;
+        padding-top: 14px;
+    }
+
+    .galerienav {
+        font-size: 1rem;
+        padding-top: 14px;
+    }
+
+    .contactnav {
+        font-size: 1rem;
+        padding-top: 14px;
+    }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+    .sliderchevron {
+        font-size: 1rem;
+    }
+
+
+    .h2accueil {
+        font-size: .8rem;
+    }
+
+    .pquisommesnous {
+        padding: 0 30px;
+        height: 170px;
+    }
+    
+    .pcardquisommesnous {
+        font-size: .6rem;
+    }
+
+    .pdestinations {
+        padding: 0 30px;
+        height: 170px;
+    }
+    
+    .pcarddestinations {
+        font-size: .6rem;
+    }
+
+    .ppartenaires {
+        padding: 0 30px;
+        height: 170px;
+    }
+    
+    .pcardpartenaires {
+        font-size: .6rem;
+    }
+
+    .footer1 {
+        height: 40px;
+    }
+
+    .infos1 {
+        font-size: 7px;
+        padding-top: 5px;
+    }
+
+    .infos2 {
+        font-size: 20px;
+    }
+
+    .infos3 {
+        font-size: 7px;
+    }
+
+    .footer2 {
+        font-size: 5px;
+        padding: 4px 0px;
+    }
+
+    .h2voyages {
+        font-size: .8rem;
+    }
+
+    .h2margin {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .carouchevron {
+        font-size: .6rem;
+    }
+
+    .voyagecardscontainer {
+        display: inline;
+    }
+
+    .voyagecards {
+        max-width: 75%;
+        margin-bottom: 50px;
+    }
+
+    .voyagecards img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .h2cardsvoyages {
+        font-size: 1.5rem;
+    }
+
+    .voyagecardspwidth {
+        font-size: .8rem;
+    }
+    
+    .voyagecardsvoir {
+        font-size: 1.5rem;
+    }
+    
+    .voyagecardsp {
+        font-size: .9rem;
+    }
+
+    .strongprice {
+        font-size: 1.4rem;
+    }
+
+    .h2show {
+        font-size: 1.4rem;
+    }
+
+    .showvoyagesp {
+        font-size: .7rem;
+    }
+
+    .testimonialsavatar {
+        width: 50px;
+        height: 50px;
+    }
+
+    .h2testimonials {
+        font-size: .8rem;
+    }
+
+    .sizestars {
+        font-size: .5rem;
+    }
+
+    .testimonialsp {
+        font-size: .6rem;
+    }
+
+    .formp {
+        font-size: .8rem;
+    }
+
+    .mybtn {
+        margin-left: 30px;
+        font-size: .8rem;
+    }
+}

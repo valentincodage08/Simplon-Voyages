@@ -84,10 +84,6 @@
     }
 
     .footer2 {
-        background-color: rgba(18, 117, 202, 0.75);
-        text-align: center;
-        font-family: 'Bellota', cursive;
-        color: #5E533F;
         font-size: 10px;
         padding: 2px 0px;
     }
@@ -114,7 +110,6 @@
     .h2cardsvoyages {
         font-size: 1rem;
     }
-
     .voyagecardspwidth {
         font-size: .6rem;
     }
@@ -164,7 +159,4 @@
         margin-left: 130px;
         font-size: 1.2rem;
     }
-
-
-
 }
